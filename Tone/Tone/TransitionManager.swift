@@ -41,16 +41,10 @@ extension TransitionManager: UIViewControllerAnimatedTransitioning {
 
         switch transitonType {
             case .present:
-                let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)! as! ToneNoteListViewController
-                baseFrame = fromVC.gotoRecordBtn.frame
-                // add the both views to our view controller
                 container.addSubview(fromView)
                 container.addSubview(toView)
 
             case .dismiss:
-                let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)! as! ToneNoteListViewController
-                baseFrame = toVC.gotoRecordBtn.frame
-                // add the both views to our view controller
                 container.addSubview(toView)
                 container.addSubview(fromView)
 
