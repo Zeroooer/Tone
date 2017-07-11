@@ -57,7 +57,6 @@ class ToneNoteListViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! RecordViewController
-//        let destinationVC = segue.destination as! TestViewController
         transitionManager.baseFrame = gotoRecordBtn.frame
         destinationVC.transitioningDelegate = transitionManager
         panInteractionManager.wireToViewController(destinationVC)

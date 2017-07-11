@@ -27,8 +27,6 @@ class ToneNoteCell: UITableViewCell {
     }
     
     func config(with toneNote: ToneNote, playFlag: Bool) {
-//        playBtn.layer.borderColor = UIColor(red: 28 / 255, green: 33 / 255, blue: 45 / 255, alpha: 1.0).cgColor
-//        playBtn.layer.borderWidth = 2
         playBtn.layer.shadowColor = UIColor(red: 28 / 255, green: 33 / 255, blue: 45 / 255, alpha: 1.0).cgColor
         playBtn.layer.shadowRadius = 5
         playBtn.layer.shadowOpacity = 0.1

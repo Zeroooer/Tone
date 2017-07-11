@@ -12,7 +12,6 @@
 		9C542AA51F0F81DF00B7774E /* PanInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C542AA41F0F81DF00B7774E /* PanInteractionManager.swift */; };
 		9C542AA81F0F834A00B7774E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C542AA71F0F834A00B7774E /* RecordViewController.swift */; };
 		9C542AAB1F0F86A400B7774E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C542AAA1F0F86A400B7774E /* AudioManager.swift */; };
-		9C542AAD1F0F925800B7774E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C542AAC1F0F925800B7774E /* TestViewController.swift */; };
 		9C542AB01F0FDEB300B7774E /* ToneNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C542AAF1F0FDEB300B7774E /* ToneNoteCell.swift */; };
 		9CAEC4C21F0E206D00B0CA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAEC4C11F0E206D00B0CA76 /* AppDelegate.swift */; };
 		9CAEC4C41F0E206D00B0CA76 /* ToneNoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAEC4C31F0E206D00B0CA76 /* ToneNoteListViewController.swift */; };
@@ -30,7 +29,6 @@
 		9C542AA41F0F81DF00B7774E /* PanInteractionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanInteractionManager.swift; sourceTree = "<group>"; };
 		9C542AA71F0F834A00B7774E /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		9C542AAA1F0F86A400B7774E /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
-		9C542AAC1F0F925800B7774E /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9C542AAF1F0FDEB300B7774E /* ToneNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneNoteCell.swift; sourceTree = "<group>"; };
 		9CAEC4BE1F0E206D00B0CA76 /* Tone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAEC4C11F0E206D00B0CA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			children = (
 				9CAEC4C31F0E206D00B0CA76 /* ToneNoteListViewController.swift */,
 				9C542AA71F0F834A00B7774E /* RecordViewController.swift */,
-				9C542AAC1F0F925800B7774E /* TestViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -278,7 +275,6 @@
 			files = (
 				9C542AA51F0F81DF00B7774E /* PanInteractionManager.swift in Sources */,
 				9C542AAB1F0F86A400B7774E /* AudioManager.swift in Sources */,
-				9C542AAD1F0F925800B7774E /* TestViewController.swift in Sources */,
 				9C542AA31F0F81D300B7774E /* TransitionManager.swift in Sources */,
 				9CAEC4C41F0E206D00B0CA76 /* ToneNoteListViewController.swift in Sources */,
 				9C542AA81F0F834A00B7774E /* RecordViewController.swift in Sources */,
@@ -413,7 +409,7 @@
 				INFOPLIST_FILE = Tone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hisen.PingTransitionDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisen.Tone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -429,7 +425,7 @@
 				INFOPLIST_FILE = Tone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hisen.PingTransitionDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisen.Tone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";

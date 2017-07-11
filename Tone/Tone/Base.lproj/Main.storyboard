@@ -164,50 +164,6 @@
             </objects>
             <point key="canvasLocation" x="-156" y="111.0944527736132"/>
         </scene>
-        <!--Test View Controller-->
-        <scene sceneID="0fF-dn-tSh">
-            <objects>
-                <viewController id="Xw9-Dw-JnZ" customClass="TestViewController" customModule="Tone" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0b0-cf-d4J"/>
-                        <viewControllerLayoutGuide type="bottom" id="wlM-Tp-hfg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UJz-cf-E27">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9Q-In-n17">
-                                <rect key="frame" x="157" y="576" width="100" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="dID-SC-eVJ"/>
-                                    <constraint firstAttribute="width" constant="100" id="xlo-n5-ZYb"/>
-                                </constraints>
-                                <state key="normal" title="Dismiss">
-                                    <color key="titleColor" red="0.10980392160000001" green="0.12941176469999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Rc5-Qj-iA1" kind="unwind" unwindAction="unwindToViewControllerWithSender:" id="kq5-TW-Ny5"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.10980392160000001" green="0.12941176469999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="wlM-Tp-hfg" firstAttribute="top" secondItem="N9Q-In-n17" secondAttribute="bottom" constant="60" id="T8r-Ob-LAO"/>
-                            <constraint firstItem="N9Q-In-n17" firstAttribute="centerX" secondItem="UJz-cf-E27" secondAttribute="centerX" id="aEn-ta-uC6"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aEn-tM-zWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="Rc5-Qj-iA1" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="697" y="512"/>
-        </scene>
         <!--Record View Controller-->
         <scene sceneID="GvW-nb-nUh">
             <objects>
@@ -302,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Km0-Pf-lxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="-194"/>
+            <point key="canvasLocation" x="641" y="111"/>
         </scene>
     </scenes>
     <resources>

@@ -67,9 +67,7 @@ class RecordViewController: UIViewController {
         super.viewDidLoad()
         buttonState = .readyRecord
         audioManager.delegate = self
-        configButtonShadow()
-//        configRecoringAnimationLayer()
-        configScatteringLayer()
+        configUI()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -136,7 +134,7 @@ class RecordViewController: UIViewController {
         let newToneNote = ToneNote()
         newToneNote.title = audioManager.audioFileName
         newToneNote.fileName = "\(audioManager.audioFileName).m4a"
-        newToneNote.duration = audioManager.timeCount
+        newToneNote.duration = audioManager.timeCount + 1
         try! realm.write {
             realm.add(newToneNote)
         }
@@ -181,7 +179,7 @@ extension RecordViewController: PlayProgressDelegate {
 
 // MARK - Private
 extension RecordViewController {
-    func configButtonShadow() {
+    func configUI() {
         recordButton.layer.shadowColor = recordButton.backgroundColor?.cgColor
         recordButton.layer.shadowRadius = 5
         recordButton.layer.shadowOpacity = 0.5
@@ -196,6 +194,11 @@ extension RecordViewController {
         saveButton.layer.shadowRadius = 5
         saveButton.layer.shadowOpacity = 0.5
         saveButton.layer.shadowOffset = CGSize(width: 2, height: 2)
+        
+//        // 简陋版 wifi 遮罩
+//        configRecoringAnimationLayer()
+        // 散射遮罩
+        configScatteringLayer()
     }
     
     func configProgressLayer() {

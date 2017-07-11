@@ -20,7 +20,7 @@ class ToneNote: Object {
     var toneNoteDesc : String {
         return "ToneNote {\n\ttitle = \(title)\n\tfileName = \(fileName)\n\tduration = \(duration)\n\tcreatedAt = \(createDate)\n}"
     }
-
+    
 // Specify properties to ignore (Realm won't persist these)
 //  override static func ignoredProperties() -> [String] {
 //  }
